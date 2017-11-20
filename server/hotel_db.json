@@ -1,0 +1,204 @@
+{
+  "cities": [
+    {
+      "id": 1,
+      "name": "New Delhi"
+    },
+    {
+      "id": "2",
+      "name": "Mumbai"
+    },
+    {
+      "id": "3",
+      "name": "Chennai"
+    },
+    {
+      "id": "4",
+      "name": "Kolkata"
+    }
+  ],
+  "hotels": [
+    {
+      "id": 11,
+      "zipCode": 110060,
+      "cityId": 1,
+      "name": "Fab Hotel",
+      "description": "Say hello to FabHotels! With technology at the center of consumer experience and backend operations, we are building a budget hospitality brand missing for so long in India. All our hotels follow rigorous housekeeping procedures, undergo strict auditing processes, and have courteous trained staff and to ensure a hassle-free experience every time you check in."
+    },
+    {
+      "id": 22,
+      "zipCode": 110001,
+      "cityId": 1,
+      "name": "Radisson Blu",
+      "description": "Radisson Blu (formerly Radisson SAS) is an upscale international chain of full service hotels and resorts brand for Radisson Hotels mostly outside the United States, including those in Europe, Africa, and Asia. These are operated by Carlson Rezidor Hotel Group. "
+    },
+    {
+      "id": 33,
+      "zipCode": 110017,
+      "cityId": 1,
+      "name": "Marriot Hotel",
+      "description": "Marriott International is headquartered in Bethesda, Maryland, in the Washington, DC metropolitan area. It has more than 5700 properties in over 110 countries and territories around the world, over 1.2 million rooms (as of September 2016), and additional 195,000 rooms in the development pipeline."
+    },
+    {
+      "id": 44,
+      "zipCode": 110070,
+      "cityId": 1,
+      "name": "Taj Hotel",
+      "description": "As of 2017, the company operates a total of 99 hotels and hotel-resorts, with 83 across India and 16 in other countries, including Bhutan, Malaysia, Maldives, Nepal, South Africa, Sri Lanka, UAE, UK, USA and Zambia"
+    },
+    {
+      "id": 55,
+      "zipCode": 110052,
+      "cityId": 1,
+      "name": "ITC Hotels",
+      "description": "ITC Hotels is India's second largest hotel chain with over 100 hotels. Based in the Hotels Division Headquarters at the ITC Green Centre in Gurugram, New Delhi, ITC Hotels is also the exclusive franchisee of The Luxury Collection brand of Starwood Hotels and Resorts in India."
+    },
+    {
+      "id": 66,
+      "zipCode": 110013,
+      "cityId": 1,
+      "name": "The Oberoi",
+      "description": "The Oberoi, Gurgaon is a luxury hotel in Gurgaon, the business hub on the outskirts of capital New Delhi. Owned by Gurgaon-based developers Orbit Resorts the owner is Parkash Singh Badal and managed by The Oberoi Hotels & Resorts chain, it was built at a cost of ₹4 billion (US$62 million) and opened on 13 April 2011 catering mainly to business travellers."
+    },
+    {
+      "id": 111,
+      "zipCode": 400070,
+      "cityId": 2,
+      "name": "Taj Hotel",
+      "description": "As of 2017, the company operates a total of 99 hotels and hotel-resorts, with 83 across India and 16 in other countries, including Bhutan, Malaysia, Maldives, Nepal, South Africa, Sri Lanka, UAE, UK, USA and Zambia"
+    },
+    {
+      "id": 222,
+      "zipCode": 400060,
+      "cityId": 2,
+      "name": "Fab Hotel",
+      "description": "Say hello to FabHotels! With technology at the center of consumer experience and backend operations, we are building a budget hospitality brand missing for so long in India. All our hotels follow rigorous housekeeping procedures, undergo strict auditing processes, and have courteous trained staff and to ensure a hassle-free experience every time you check in."
+    },
+    {
+      "id": 333,
+      "zipCode": 400052,
+      "cityId": 2,
+      "name": "ITC Hotels",
+      "description": "ITC Hotels is India's second largest hotel chain with over 100 hotels. Based in the Hotels Division Headquarters at the ITC Green Centre in Gurugram, New Delhi, ITC Hotels is also the exclusive franchisee of The Luxury Collection brand of Starwood Hotels and Resorts in India."
+    },
+    {
+      "id": 444,
+      "zipCode": 400013,
+      "cityId": 2,
+      "name": "The Oberoi",
+      "description": "The Oberoi, Gurgaon is a luxury hotel in Gurgaon, the business hub on the outskirts of capital New Delhi. Owned by Gurgaon-based developers Orbit Resorts the owner is Parkash Singh Badal and managed by The Oberoi Hotels & Resorts chain, it was built at a cost of ₹4 billion (US$62 million) and opened on 13 April 2011 catering mainly to business travellers."
+    },
+    {
+      "id": 555,
+      "zipCode": 400001,
+      "cityId": 2,
+      "name": "Radisson Blu",
+      "description": "Radisson Blu (formerly Radisson SAS) is an upscale international chain of full service hotels and resorts brand for Radisson Hotels mostly outside the United States, including those in Europe, Africa, and Asia. These are operated by Carlson Rezidor Hotel Group. "
+    },
+    {
+      "id": 666,
+      "zipCode": 400016,
+      "cityId": 2,
+      "name": "The Ashok Hotel",
+      "description": "The Ashok Group is a chain of hotels owned and operated as Public Sector Undertakings (PSUs) of the India Tourism Development Corporation (ITDC) in India. The Group is headquartered in New Delhi"
+    },
+    {
+      "id": 777,
+      "zipCode": 400017,
+      "cityId": 2,
+      "name": "Marriot Hotel",
+      "description": "Marriott International is headquartered in Bethesda, Maryland, in the Washington, DC metropolitan area. It has more than 5700 properties in over 110 countries and territories around the world, over 1.2 million rooms (as of September 2016), and additional 195,000 rooms in the development pipeline."
+    },
+    {
+      "id": 1111,
+      "zipCode": 600017,
+      "cityId": 3,
+      "name": "Marriot Hotel",
+      "description": "Marriott International is headquartered in Bethesda, Maryland, in the Washington, DC metropolitan area. It has more than 5700 properties in over 110 countries and territories around the world, over 1.2 million rooms (as of September 2016), and additional 195,000 rooms in the development pipeline."
+    },
+    {
+      "id": 2222,
+      "zipCode": 600070,
+      "cityId": 3,
+      "name": "Taj Hotel",
+      "description": "As of 2017, the company operates a total of 99 hotels and hotel-resorts, with 83 across India and 16 in other countries, including Bhutan, Malaysia, Maldives, Nepal, South Africa, Sri Lanka, UAE, UK, USA and Zambia"
+    },
+    {
+      "id": 3333,
+      "zipCode": 600052,
+      "cityId": 3,
+      "name": "ITC Hotels",
+      "description": "ITC Hotels is India's second largest hotel chain with over 100 hotels. Based in the Hotels Division Headquarters at the ITC Green Centre in Gurugram, New Delhi, ITC Hotels is also the exclusive franchisee of The Luxury Collection brand of Starwood Hotels and Resorts in India."
+    },
+    {
+      "id": 4444,
+      "zipCode": 600013,
+      "cityId": 3,
+      "name": "The Oberoi",
+      "description": "The Oberoi, Gurgaon is a luxury hotel in Gurgaon, the business hub on the outskirts of capital New Delhi. Owned by Gurgaon-based developers Orbit Resorts the owner is Parkash Singh Badal and managed by The Oberoi Hotels & Resorts chain, it was built at a cost of ₹4 billion (US$62 million) and opened on 13 April 2011 catering mainly to business travellers."
+    },
+    {
+      "id": 5555,
+      "zipCode": 600060,
+      "cityId": 3,
+      "name": "Fab Hotel",
+      "description": "Say hello to FabHotels! With technology at the center of consumer experience and backend operations, we are building a budget hospitality brand missing for so long in India. All our hotels follow rigorous housekeeping procedures, undergo strict auditing processes, and have courteous trained staff and to ensure a hassle-free experience every time you check in."
+    },
+    {
+      "id": 6666,
+      "zipCode": 600001,
+      "cityId": 3,
+      "name": "Radisson Blu",
+      "description": "Radisson Blu (formerly Radisson SAS) is an upscale international chain of full service hotels and resorts brand for Radisson Hotels mostly outside the United States, including those in Europe, Africa, and Asia. These are operated by Carlson Rezidor Hotel Group. "
+    },
+    {
+      "id": 11111,
+      "zipCode": 700060,
+      "cityId": 4,
+      "name": "Fab Hotel",
+      "description": "Say hello to FabHotels! With technology at the center of consumer experience and backend operations, we are building a budget hospitality brand missing for so long in India. All our hotels follow rigorous housekeeping procedures, undergo strict auditing processes, and have courteous trained staff and to ensure a hassle-free experience every time you check in."
+    },
+    {
+      "id": 22222,
+      "zipCode": 700001,
+      "cityId": 4,
+      "name": "Radisson Blu",
+      "description": "Radisson Blu (formerly Radisson SAS) is an upscale international chain of full service hotels and resorts brand for Radisson Hotels mostly outside the United States, including those in Europe, Africa, and Asia. These are operated by Carlson Rezidor Hotel Group. "
+    },
+    {
+      "id": 33333,
+      "zipCode": 700017,
+      "cityId": 4,
+      "name": "Marriot Hotel",
+      "description": "Marriott International is headquartered in Bethesda, Maryland, in the Washington, DC metropolitan area. It has more than 5700 properties in over 110 countries and territories around the world, over 1.2 million rooms (as of September 2016), and additional 195,000 rooms in the development pipeline."
+    },
+    {
+      "id": 44444,
+      "zipCode": 700070,
+      "cityId": 4,
+      "name": "Taj Hotel",
+      "description": "As of 2017, the company operates a total of 99 hotels and hotel-resorts, with 83 across India and 16 in other countries, including Bhutan, Malaysia, Maldives, Nepal, South Africa, Sri Lanka, UAE, UK, USA and Zambia"
+    },
+    {
+      "id": 55555,
+      "zipCode": 700052,
+      "cityId": 4,
+      "name": "ITC Hotels",
+      "description": "ITC Hotels is India's second largest hotel chain with over 100 hotels. Based in the Hotels Division Headquarters at the ITC Green Centre in Gurugram, New Delhi, ITC Hotels is also the exclusive franchisee of The Luxury Collection brand of Starwood Hotels and Resorts in India."
+    },
+    {
+      "id": 66666,
+      "zipCode": 700013,
+      "cityId": 4,
+      "name": "The Oberoi",
+      "description": "The Oberoi, Gurgaon is a luxury hotel in Gurgaon, the business hub on the outskirts of capital New Delhi. Owned by Gurgaon-based developers Orbit Resorts the owner is Parkash Singh Badal and managed by The Oberoi Hotels & Resorts chain, it was built at a cost of ₹4 billion (US$62 million) and opened on 13 April 2011 catering mainly to business travellers."
+    },
+    {
+      "id": 77777,
+      "zipCode": 700014,
+      "cityId": 4,
+      "name": "The Ashok Hotel",
+      "description": "The Ashok Group is a chain of hotels owned and operated as Public Sector Undertakings (PSUs) of the India Tourism Development Corporation (ITDC) in India. The Group is headquartered in New Delhi"
+    }
+  ]
+}

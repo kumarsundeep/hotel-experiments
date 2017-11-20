@@ -1,0 +1,90 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Hotel Experiments</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-3 col-md-2 sidebar">
+      <ul class="nav nav-sidebar">
+        <li class="cities-title">METRO CITIES</li>
+        <li [ngClass]="{'active' : selectedCity === '' && overview === true}"><a (click)="showOverview()">Overview <span class="sr-only">(current)</span></a></li>
+        <!--city list-->
+        <li *ngFor="let city of cities" [ngClass]="{'active' : city.name === selectedCity} || overview === false">
+          <a (click)="showHotels(city.id,city.name)">{{city.name}}</a>
+        </li>
+      </ul>
+    </div>
+    <!--overview-->
+    <app-overview *ngIf="overview === true" class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main"></app-overview>
+    <!--hotel list-->
+    <div *ngIf="cityList === true" class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+      <h1 class="page-header">Hotels Found ({{noOfHotels}})</h1>
+      <div class="row">
+        <div class="col-xs-12" *ngFor="let hotel of hotels">
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object img-circle" width="100" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Hotel">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">{{hotel.name}}</h4>
+              <p>
+                {{hotel.description}}
+              </p>
+              <p class="zip-city-info">
+                <span class="title">Pin Code:</span><span class="value">{{hotel.zipCode}}</span>
+                <span class="title">City:</span><span class="value">{{cityName}}</span>
+              </p>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+      <button type="button" class="btn btn-primary floating" (click)="addHotelModal.open()">+</button>
+      <!-- modal -->
+      <modal #addHotelModal modalClass="add-modal">
+        <modal-header>
+          <h3>Add Hotel</h3>
+        </modal-header>
+        <modal-content>
+          <form [formGroup]="rForm">
+            <div class="form-group">
+              <label for="hotelName" class="control-label">Hotel Name:*</label>
+              <input type="text" class="form-control" id="hotelName" formControlName="hotelName" >
+              <div class="to-validate" *ngIf="!rForm.controls['hotelName'].valid && rForm.controls['hotelName'].touched">{{ validMsg }}</div>
+            </div>
+            <div class="form-group">
+              <label for="hotelDesc" class="control-label">Hotel Description:*</label>
+              <input type="text" class="form-control" id="hotelDesc" formControlName="hotelDesc" >
+              <div class="to-validate" *ngIf="!rForm.controls['hotelDesc'].valid && rForm.controls['hotelDesc'].touched">{{ validMsg }}</div>
+            </div>
+            <div class="form-group">
+              <label for="hotelZip" class="control-label">Pin Code:*</label>
+              <input type="number" maxlength="6" class="form-control" id="hotelZip" formControlName="hotelZip" >
+              <div class="to-validate" *ngIf="!rForm.controls['hotelZip'].valid && rForm.controls['hotelZip'].touched">{{ validMsg }}</div>
+            </div>
+          </form>
+        </modal-content>
+        <modal-footer>
+          <button class="btn btn-default" (click)="addHotelModal.close()">Close</button>
+          <button class="btn btn-primary" (click)="addHotel(rForm.value); addHotelModal.close()" [disabled]="!rForm.valid">Submit</button>
+        </modal-footer>
+      </modal>
+    </div>
+
+  </div>
+</div>
+
+
+
