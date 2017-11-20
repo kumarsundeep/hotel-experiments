@@ -2,11 +2,11 @@
 
 Sample experimental features of hotel app:
 
-1. Fetch city list dynamically from db and show on page.
-2. Respective city hotels list.
-3. Add Hotel.
+1. It can fetch city list dynamically from db and show on page.
+2. It shows individual hotels list w.r.t city.
+3. It can Add Hotel.
 4. Show No. of Hotels found in the city.
-5. App automatically identifies city and add hotel to hotel list with respective to city, so no need to specify city when adding hotel.
+5. App automatically identifies city and add hotel to hotel list with respective to city, so no need to specify city when adding an hotel.
 6. The app will work perfectly fine and add hotels even if new cities get added in db.
 7. In Add Hotel only required validation is added for demonstration purpose only.
 8. API request error handliing > if call not made, error will be shown in browser alert box.
